@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :profiles, only: [:index]
   resources :skills, only: [:index]
+  resources :dreams, only: [:index]
 end
