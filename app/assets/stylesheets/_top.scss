@@ -1,0 +1,35 @@
+.uppage {
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+  &-title {
+    font-size: 5rem;
+    text-align: center;
+  }
+  &-name {
+    font-size: 3rem;
+    margin-left: 60vw;
+  }
+}
+
+.downpage {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+
+  li a{
+    display: block;
+    width: 30vw;
+    height: 200px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 200px;
+    text-decoration: none;
+    color: black;
+  }
+  li:hover a{
+    display: block;
+    background-color: red;
+    border-radius: 20px;
+  }
+}
